@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cardo', 'EB Garamond', Georgia, serif;
+  --font-garamond: 'EB Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+
+  --color-bg: #f1e9d4;
+  --color-bg-dark: #e6dcc0;
+  --color-bg-darker: #d8caa8;
+  --color-bg-light: #f7f4ec;
+  --color-paper: #fbf6e8;
+  --color-ink: #26201a;
+  --color-ink-soft: #5a4f3e;
+  --color-ink-mid: #7d6e54;
+  --color-ink-fade: #a89876;
+  --color-accent: #7a2e2e;
+  --color-accent-soft: #9a4a4a;
+  --color-line: rgba(38, 32, 26, 0.08);
+  --color-line-mid: rgba(38, 32, 26, 0.14);
+  --color-line-strong: rgba(38, 32, 26, 0.22);
+  --color-rule: rgba(38, 32, 26, 0.10);
+
+  --color-paper-glass: rgba(251, 246, 232, 0.62);
+  --color-paper-glass-strong: rgba(251, 246, 232, 0.78);
+  --color-paper-glass-soft: rgba(251, 246, 232, 0.42);
+
+  --color-home-bg: #f7f4ec;
+  --color-home-ink: #2a241a;
+  --color-home-ink-soft: #7a6f5a;
+  --color-home-ink-fade: #b8ab90;
+  --color-home-line: rgba(42, 36, 26, 0.08);
+
+  --color-level-1: #9a3838;
+  --color-level-1-text: #7a2828;
+  --color-level-2: #b06820;
+  --color-level-2-text: #7a4818;
+  --color-level-3: #a88410;
+  --color-level-3-text: #75580a;
+  --color-level-4: #5e7a48;
+  --color-level-4-text: #3e552e;
+  --color-level-5: #a89876;
+  --color-level-5-text: #a89876;
+
+  --color-alfabeto-rose: #9a3838;
+  --color-alfabeto-emerald: #3e552e;
+  --color-stone-800: #292524;
+  --color-stone-700: #44403c;
+  --color-stone-600: #57534e;
+  --color-stone-500: #78716c;
+  --color-stone-400: #a8a29e;
+  --color-stone-300: #d6d3d1;
+  --color-stone-200: #e7e5e4;
+  --color-stone-50: #fafaf9;
+}
+
+body {
+  margin: 0;
+}
